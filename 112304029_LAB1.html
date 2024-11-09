@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>112304029</title>
+    <style>
+    	 table {
+            width: 60%; 
+            margin: 20px auto; 
+            border-collapse: collapse; 
+            border: 3px double #ddd; 
+            border-radius: 10px; 
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+        }
+        th, td {
+            border: 1px solid #ddd; 
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:hover {
+            background-color: #f1f1f1; 
+        }
+        td img {
+            max-width: 100%; height: auto; 
+        }
+        .image-cell {
+            text-align: center;
+            vertical-align: middle; 
+        }
+        caption {
+            display: none; 
+        }
+        .table-caption {
+            font-weight: bold;
+            text-align: center; 
+            font-size: 1.2em;
+            padding: 10px;
+            background-color: #f4f4f4;
+            border-bottom: 2px solid #ddd;
+            border-radius: 10px 10px 0 0; 
+            vertical-align: middle; 
+        }
+    </style>
+</head>
+<body>
+
+<!-- About 112304029 -->
+<table>
+    <tr>
+    	 <td colspan="3" class="table-caption">About 112304029</td>
+    </tr>
+    <tr>
+        <td class="image-cell" rowspan="4">
+            <img src="IMG_0851.jpg" alt=" " style="width: 100px; max-width: 100%; height: auto; text-align: center;
+            ">
+            <br>
+            <small>Personal Photo</small>
+        </td>
+    </tr>
+    <td colspan="2">
+        Name: <input type="text" name="name" value="趙苡辰"><br>
+        Gender: 
+        <input type="radio" name="gender" value="male"> Male 
+        <input type="radio" name="gender" value="female" checked> Female 
+        <input type="radio" name="gender" value="other"> Other
+    </td>
+	</tr>
+	<tr>
+	    <td class="half-width">
+	        County: 
+	        <select name="county">
+	            <option value="taipei" selected>Taipei</option>
+	            <option value="tainan">Tainan</option>
+	            <option value="taichung">Taichung</option>
+	            <option value="taoyuan">Taoyuan</option>
+	        </select>
+	    </td>
+	    <td class="half-width">
+	        Birthday: <input type="date" name="birthday" value="2005-03-23">
+	    </td>
+	</tr>
+	<tr>
+	    <td colspan="2">
+	        E-mail: <input type="email" name="E-mail" value="112304029@g.nccu.edu.tw">
+	    </td>
+    </tr>
+    <tr>
+        <td>Hobby</td>
+        <td colspan="2">
+            <input type="checkbox" name="hobby" value="swimming"> Swimming
+            <input type="checkbox" name="hobby" value="volleyball" checked> Volleyball
+            <input type="checkbox" name="hobby" value="movie" checked> Movie
+            <input type="checkbox" name="hobby" value="game" checked> Gam
+            <input type="checkbox" name="hobby" value="sleep" checked> Sleep
+        </td>
+    </tr>
+    <tr>
+        <td>Skill</td>
+        <td colspan="2">
+            <input type="checkbox" name="skill" value="java"> Java
+            <input type="checkbox" name="skill" value="html" checked> HTML
+            <input type="checkbox" name="skill" value="python"> Python
+            <input type="checkbox" name="skill" value="office" checked> Microsoft Office
+            <input type="checkbox" name="skill" value="premiere"> Premiere
+        </td>
+    </tr>
+    <tr>
+        <td>Say something</td>
+        <td colspan="2">
+            <textarea name="message" rows="4" cols="40" placeholder="Say something here."></textarea>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
